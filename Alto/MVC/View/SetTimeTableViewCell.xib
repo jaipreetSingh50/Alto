@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FIRASANS-REGULAR_0.TTF">
+            <string>FiraSans-Regular</string>
+        </array>
+        <array key="FIRASANS-SEMIBOLD_0.TTF">
+            <string>FiraSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="213" id="KGk-i7-Jjw" customClass="SetTimeTableViewCell" customModule="Alto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="392" height="213"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="392" height="213"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="1om-dE-sfv">
+                        <rect key="frame" x="0.0" y="40" width="392" height="140"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TPB-v2-woZ">
+                                <rect key="frame" x="0.0" y="0.0" width="190" height="140"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Start Time" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76D-9Q-Etf">
+                                        <rect key="frame" x="12" y="12" width="174" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="mSB-vd-ZhJ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FiraSans-SemiBold" family="Fira Sans" pointSize="15"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="AxT-qg-AI9">
+                                        <rect key="frame" x="12" y="36" width="174" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Q8I-aY-Mz6"/>
+                                        </constraints>
+                                    </datePicker>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="AxT-qg-AI9" firstAttribute="top" secondItem="76D-9Q-Etf" secondAttribute="bottom" constant="4" id="9ie-Wd-dKx"/>
+                                    <constraint firstAttribute="bottom" secondItem="AxT-qg-AI9" secondAttribute="bottom" constant="4" id="Dlh-MD-Q9A"/>
+                                    <constraint firstItem="76D-9Q-Etf" firstAttribute="leading" secondItem="TPB-v2-woZ" secondAttribute="leading" constant="12" id="Myz-wd-5PK"/>
+                                    <constraint firstItem="76D-9Q-Etf" firstAttribute="top" secondItem="TPB-v2-woZ" secondAttribute="top" constant="12" id="d98-Rk-HfI"/>
+                                    <constraint firstAttribute="trailing" secondItem="76D-9Q-Etf" secondAttribute="trailing" constant="4" id="dDG-DH-a44"/>
+                                    <constraint firstAttribute="trailing" secondItem="AxT-qg-AI9" secondAttribute="trailing" constant="4" id="s9M-69-Zlb"/>
+                                    <constraint firstItem="AxT-qg-AI9" firstAttribute="leading" secondItem="TPB-v2-woZ" secondAttribute="leading" constant="12" id="uWw-2n-GRa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tIj-SG-vMR">
+                                <rect key="frame" x="202" y="0.0" width="190" height="140"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="End Time" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UwY-ue-cTY">
+                                        <rect key="frame" x="4" y="12" width="174" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="gJa-y9-TLE"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FiraSans-SemiBold" family="Fira Sans" pointSize="15"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="PG4-FE-o4A">
+                                        <rect key="frame" x="4" y="36" width="174" height="100"/>
+                                        <color key="tintColor" red="0.1137254902" green="0.30980392159999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="wOW-Ux-XPl"/>
+                                        </constraints>
+                                    </datePicker>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="UwY-ue-cTY" secondAttribute="trailing" constant="12" id="AhF-Lr-7sX"/>
+                                    <constraint firstItem="PG4-FE-o4A" firstAttribute="top" secondItem="UwY-ue-cTY" secondAttribute="bottom" constant="4" id="YRd-qF-95z"/>
+                                    <constraint firstAttribute="trailing" secondItem="PG4-FE-o4A" secondAttribute="trailing" constant="12" id="ahO-VT-66H"/>
+                                    <constraint firstItem="PG4-FE-o4A" firstAttribute="leading" secondItem="tIj-SG-vMR" secondAttribute="leading" constant="4" id="fvV-E1-Qun"/>
+                                    <constraint firstItem="UwY-ue-cTY" firstAttribute="leading" secondItem="tIj-SG-vMR" secondAttribute="leading" constant="4" id="h7k-uI-MpX"/>
+                                    <constraint firstAttribute="bottom" secondItem="PG4-FE-o4A" secondAttribute="bottom" constant="4" id="jfX-hY-9Q2"/>
+                                    <constraint firstItem="UwY-ue-cTY" firstAttribute="top" secondItem="tIj-SG-vMR" secondAttribute="top" constant="12" id="qiI-lR-SRw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                    </stackView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="InP-dd-lYS">
+                        <rect key="frame" x="0.0" y="0.0" width="392" height="40"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meering Date :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RGE-Wb-Tkz">
+                                <rect key="frame" x="12" y="9.5" width="368" height="21"/>
+                                <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstItem="RGE-Wb-Tkz" firstAttribute="centerY" secondItem="InP-dd-lYS" secondAttribute="centerY" id="6r0-by-2cl"/>
+                            <constraint firstAttribute="height" constant="40" id="Uea-BC-fHr"/>
+                            <constraint firstItem="RGE-Wb-Tkz" firstAttribute="leading" secondItem="InP-dd-lYS" secondAttribute="leading" constant="12" id="Z7s-Sd-2HK"/>
+                            <constraint firstAttribute="trailing" secondItem="RGE-Wb-Tkz" secondAttribute="trailing" constant="12" id="miC-gq-aBU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="InP-dd-lYS" secondAttribute="trailing" id="7jW-0j-AEf"/>
+                    <constraint firstItem="1om-dE-sfv" firstAttribute="top" secondItem="InP-dd-lYS" secondAttribute="bottom" id="IkF-Re-pU4"/>
+                    <constraint firstAttribute="trailing" secondItem="1om-dE-sfv" secondAttribute="trailing" id="JTf-Wk-URa"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="1om-dE-sfv" secondAttribute="bottom" id="Lfd-Y8-cfg"/>
+                    <constraint firstItem="InP-dd-lYS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="QCL-a9-h7e"/>
+                    <constraint firstItem="InP-dd-lYS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Xiu-nt-MZ5"/>
+                    <constraint firstItem="1om-dE-sfv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="b0D-it-NTj"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="endTime" destination="PG4-FE-o4A" id="9UP-cL-TZ6"/>
+                <outlet property="lblMeetingDate" destination="RGE-Wb-Tkz" id="vgQ-7Q-8fS"/>
+                <outlet property="startTime" destination="AxT-qg-AI9" id="3aQ-f2-QH3"/>
+            </connections>
+            <point key="canvasLocation" x="228.98550724637684" y="62.611607142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0080000003799796104" green="0.28999999165534973" blue="0.62699997425079346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

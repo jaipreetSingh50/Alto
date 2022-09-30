@@ -1,0 +1,115 @@
+PODS:
+  - Alamofire (5.4.3)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - CalendarKit (1.0.18)
+  - Cosmos (23.0.0)
+  - FlagPhoneNumber (0.8.0):
+    - FlagPhoneNumber/libPhoneNumberiOS (= 0.8.0)
+  - FlagPhoneNumber/libPhoneNumberiOS (0.8.0)
+  - GoogleSignIn (6.0.2):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - IQKeyboardManagerSwift (6.5.6)
+  - Koyomi (1.2.7)
+  - LGSideMenuController (3.1.2)
+  - LocationPicker (1.4.2)
+  - lottie-ios (3.2.3)
+  - NVActivityIndicatorView (5.1.1):
+    - NVActivityIndicatorView/Base (= 5.1.1)
+  - NVActivityIndicatorView/Base (5.1.1)
+  - OpenTok (2.21.3)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - Stripe (22.6.0):
+    - Stripe/Stripe3DS2 (= 22.6.0)
+    - StripeApplePay (= 22.6.0)
+    - StripeCore (= 22.6.0)
+    - StripeUICore (= 22.6.0)
+  - Stripe/Stripe3DS2 (22.6.0):
+    - StripeApplePay (= 22.6.0)
+    - StripeCore (= 22.6.0)
+    - StripeUICore (= 22.6.0)
+  - StripeApplePay (22.6.0):
+    - StripeCore (= 22.6.0)
+  - StripeCore (22.6.0)
+  - StripeUICore (22.6.0):
+    - StripeCore (= 22.6.0)
+  - VACalendar (1.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - CalendarKit
+  - Cosmos
+  - FlagPhoneNumber
+  - GoogleSignIn
+  - IQKeyboardManagerSwift
+  - Koyomi
+  - LGSideMenuController
+  - LocationPicker
+  - lottie-ios
+  - NVActivityIndicatorView
+  - OpenTok
+  - SDWebImage
+  - Stripe
+  - VACalendar
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - CalendarKit
+    - Cosmos
+    - FlagPhoneNumber
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - IQKeyboardManagerSwift
+    - Koyomi
+    - LGSideMenuController
+    - LocationPicker
+    - lottie-ios
+    - NVActivityIndicatorView
+    - OpenTok
+    - SDWebImage
+    - Stripe
+    - StripeApplePay
+    - StripeCore
+    - StripeUICore
+    - VACalendar
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  CalendarKit: 9d1ca8a20e082948796ca1c7f359cee91f793317
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  FlagPhoneNumber: 3712455b95f66cb0f2016fef7d9e34cddf8c7f9a
+  GoogleSignIn: fd381840dbe7c1137aa6dc30849a5c3e070c034a
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
+  Koyomi: f03615b8d2bb5a5a4752c6404a9794ed7ef7b327
+  LGSideMenuController: 0c7b155b0dbdf14bf8b88d5ac363c5fe1584bb23
+  LocationPicker: 9af49409ec3ca13fdf4bf6b39e1a3c7dec029f4a
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
+  NVActivityIndicatorView: 1f6c5687f1171810aa27a3296814dc2d7dec3667
+  OpenTok: 6c553d092fa8d28cf3457a2b3c1e8f7904ee6063
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  Stripe: 4dfbdf728f31b178f682bde8709336ec9a2c29e8
+  StripeApplePay: 5c1a8b4b017c48f824dfb27e6ea05a328d7c57c8
+  StripeCore: 9b44be7bcfe6905257f5094ab2d76fdf8adb5747
+  StripeUICore: b09d3bc4f00ebc3f3b415e429df3454a575a3a13
+  VACalendar: 3e5a001cbf437ebed2bcfc747f3187e555d65175
+
+PODFILE CHECKSUM: 889d50c254c34f6dd7be3a7f656b79fc5ef9b955
+
+COCOAPODS: 1.11.3

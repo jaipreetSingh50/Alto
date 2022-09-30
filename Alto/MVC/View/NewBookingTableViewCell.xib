@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FIRASANS-LIGHT_0.TTF">
+            <string>FiraSans-Light</string>
+        </array>
+        <array key="FIRASANS-MEDIUM_0.TTF">
+            <string>FiraSans-Medium</string>
+        </array>
+        <array key="FIRASANS-REGULAR_0.TTF">
+            <string>FiraSans-Regular</string>
+        </array>
+        <array key="FIRASANS-SEMIBOLD_0.TTF">
+            <string>FiraSans-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="385" id="KGk-i7-Jjw" customClass="NewBookingTableViewCell" customModule="Alto" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="385"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="385"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C2N-Lv-Pa1">
+                        <rect key="frame" x="12" y="8" width="296" height="369"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yn2-Kg-0Gd">
+                                <rect key="frame" x="6" y="0.0" width="284" height="241"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chess" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDR-MB-x76">
+                                        <rect key="frame" x="4" y="12" width="56.5" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-Medium" family="Fira Sans" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CHF 35/hr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRa-P6-CCN">
+                                        <rect key="frame" x="187" y="12" width="93" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-SemiBold" family="Fira Sans" pointSize="20"/>
+                                        <color key="textColor" name="AccentColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chess" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q1y-my-YLW">
+                                        <rect key="frame" x="4" y="39.5" width="276" height="21"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="18"/>
+                                        <color key="textColor" name="Color Dark Text"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0GH-jc-b3S">
+                                        <rect key="frame" x="6" y="68.5" width="272" height="1"/>
+                                        <color key="backgroundColor" name="Color Border"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="xZ3-Cw-bco"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="18"/>
+                                        <color key="textColor" name="Color Dark Text"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Companion Details" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q3f-uf-N2d">
+                                        <rect key="frame" x="4" y="77.5" width="153.5" height="21"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-SemiBold" family="Fira Sans" pointSize="18"/>
+                                        <color key="textColor" name="AccentColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="deafult_user" translatesAutoresizingMaskIntoConstraints="NO" id="c9d-7N-RwW">
+                                        <rect key="frame" x="4" y="102.5" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="R9l-cJ-BdH"/>
+                                            <constraint firstAttribute="height" constant="50" id="gMI-AA-c1O"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="25"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="2"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="1" height="1"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                                <color key="value" name="Color Border"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chess" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="265-J1-ARF">
+                                        <rect key="frame" x="58" y="106.5" width="222" height="21"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-Regular" family="Fira Sans" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Booking #456789W2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AoO-b0-H37">
+                                        <rect key="frame" x="58" y="129.5" width="222" height="19"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-Light" family="Fira Sans" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="iDR-MB-x76" firstAttribute="top" secondItem="Yn2-Kg-0Gd" secondAttribute="top" constant="12" id="4u5-t5-CVl"/>
+                                    <constraint firstItem="0GH-jc-b3S" firstAttribute="leading" secondItem="Yn2-Kg-0Gd" secondAttribute="leading" constant="6" id="600-qC-5jH"/>
+                                    <constraint firstItem="265-J1-ARF" firstAttribute="top" secondItem="c9d-7N-RwW" secondAttribute="top" constant="4" id="8S0-O5-c4r"/>
+                                    <constraint firstAttribute="trailing" secondItem="0GH-jc-b3S" secondAttribute="trailing" constant="6" id="Ajr-FD-2vo"/>
+                                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="c9d-7N-RwW" secondAttribute="bottom" constant="4" id="Ceu-Ll-cC5"/>
+                                    <constraint firstAttribute="trailing" secondItem="AoO-b0-H37" secondAttribute="trailing" constant="4" id="I0x-XU-edQ"/>
+                                    <constraint firstItem="Q3f-uf-N2d" firstAttribute="top" secondItem="0GH-jc-b3S" secondAttribute="bottom" constant="8" id="M3X-Rz-acz"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q1y-my-YLW" secondAttribute="trailing" constant="4" id="NeF-Na-pDt"/>
+                                    <constraint firstItem="265-J1-ARF" firstAttribute="leading" secondItem="c9d-7N-RwW" secondAttribute="trailing" constant="4" id="Q5i-rV-daR"/>
+                                    <constraint firstAttribute="trailing" secondItem="kRa-P6-CCN" secondAttribute="trailing" constant="4" id="RE2-gS-f7j"/>
+                                    <constraint firstItem="c9d-7N-RwW" firstAttribute="leading" secondItem="Yn2-Kg-0Gd" secondAttribute="leading" constant="4" id="SWM-sw-hTO"/>
+                                    <constraint firstItem="AoO-b0-H37" firstAttribute="leading" secondItem="c9d-7N-RwW" secondAttribute="trailing" constant="4" id="Sk0-Zl-pY5"/>
+                                    <constraint firstItem="c9d-7N-RwW" firstAttribute="top" secondItem="Q3f-uf-N2d" secondAttribute="bottom" constant="4" id="YMJ-uU-SC0"/>
+                                    <constraint firstItem="AoO-b0-H37" firstAttribute="top" secondItem="265-J1-ARF" secondAttribute="bottom" constant="2" id="bmG-ue-7V0"/>
+                                    <constraint firstItem="Q1y-my-YLW" firstAttribute="leading" secondItem="Yn2-Kg-0Gd" secondAttribute="leading" constant="4" id="gPg-ud-lOg"/>
+                                    <constraint firstItem="iDR-MB-x76" firstAttribute="leading" secondItem="Yn2-Kg-0Gd" secondAttribute="leading" constant="4" id="i5g-94-hAK"/>
+                                    <constraint firstItem="Q1y-my-YLW" firstAttribute="top" secondItem="iDR-MB-x76" secondAttribute="bottom" constant="4" id="iO0-fT-5CZ"/>
+                                    <constraint firstItem="Q3f-uf-N2d" firstAttribute="leading" secondItem="Yn2-Kg-0Gd" secondAttribute="leading" constant="4" id="kCK-7a-Tpi"/>
+                                    <constraint firstAttribute="trailing" secondItem="265-J1-ARF" secondAttribute="trailing" constant="4" id="mAY-nA-8WS"/>
+                                    <constraint firstItem="kRa-P6-CCN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iDR-MB-x76" secondAttribute="trailing" constant="4" id="ren-qb-IZU"/>
+                                    <constraint firstItem="kRa-P6-CCN" firstAttribute="centerY" secondItem="iDR-MB-x76" secondAttribute="centerY" id="txe-rf-WWg"/>
+                                    <constraint firstItem="0GH-jc-b3S" firstAttribute="top" secondItem="Q1y-my-YLW" secondAttribute="bottom" constant="8" id="xGb-0G-gam"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                        <size key="value" width="0.0" height="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="Color Border"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="mUP-fm-tQn">
+                                <rect key="frame" x="10" y="245" width="276" height="120"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L3C-Rs-2kb">
+                                        <rect key="frame" x="0.0" y="0.0" width="276" height="32"/>
+                                        <color key="backgroundColor" red="0.39215686274509803" green="0.73725490196078436" blue="0.40392156862745099" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="32" id="VyI-IR-p5u"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="FiraSans-Medium" family="Fira Sans" pointSize="18"/>
+                                        <state key="normal" title="Accept">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b4c-QY-sFR">
+                                        <rect key="frame" x="0.0" y="44" width="276" height="32"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-Medium" family="Fira Sans" pointSize="18"/>
+                                        <state key="normal" title="Reject">
+                                            <color key="titleColor" systemColor="systemRedColor"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chess" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="KRe-Ns-9XT">
+                                        <rect key="frame" x="0.0" y="88" width="276" height="32"/>
+                                        <fontDescription key="fontDescription" name="FiraSans-SemiBold" family="Fira Sans" pointSize="18"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="mUP-fm-tQn" secondAttribute="bottom" constant="4" id="0RK-iw-rKg"/>
+                            <constraint firstItem="Yn2-Kg-0Gd" firstAttribute="top" secondItem="C2N-Lv-Pa1" secondAttribute="top" id="6NR-7x-XLa"/>
+                            <constraint firstItem="mUP-fm-tQn" firstAttribute="leading" secondItem="C2N-Lv-Pa1" secondAttribute="leading" constant="10" id="FxJ-H2-wch"/>
+                            <constraint firstAttribute="trailing" secondItem="Yn2-Kg-0Gd" secondAttribute="trailing" constant="6" id="Sx8-H8-CRh"/>
+                            <constraint firstAttribute="trailing" secondItem="mUP-fm-tQn" secondAttribute="trailing" constant="10" id="m5u-dx-74s"/>
+                            <constraint firstItem="mUP-fm-tQn" firstAttribute="top" secondItem="Yn2-Kg-0Gd" secondAttribute="bottom" constant="4" id="rEq-NU-O5E"/>
+                            <constraint firstItem="Yn2-Kg-0Gd" firstAttribute="leading" secondItem="C2N-Lv-Pa1" secondAttribute="leading" constant="6" id="sVr-WE-qHe"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="1" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" name="Color Border"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="Color Border"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="C2N-Lv-Pa1" secondAttribute="bottom" constant="8" id="Sdh-ds-55w"/>
+                    <constraint firstAttribute="trailing" secondItem="C2N-Lv-Pa1" secondAttribute="trailing" constant="12" id="Zmu-aT-uz6"/>
+                    <constraint firstItem="C2N-Lv-Pa1" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="12" id="bVn-Bs-mNC"/>
+                    <constraint firstItem="C2N-Lv-Pa1" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="wDr-UY-Xi1"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnAccept" destination="L3C-Rs-2kb" id="hNt-SA-4oa"/>
+                <outlet property="btnReject" destination="b4c-QY-sFR" id="HdW-M5-nLY"/>
+                <outlet property="imgUser" destination="c9d-7N-RwW" id="MXo-yZ-j9b"/>
+                <outlet property="lblBookingNo" destination="AoO-b0-H37" id="Iel-c9-dFY"/>
+                <outlet property="lblCost" destination="kRa-P6-CCN" id="QWH-WC-KAG"/>
+                <outlet property="lblName" destination="265-J1-ARF" id="uSa-OS-tLe"/>
+                <outlet property="lblStatus" destination="KRe-Ns-9XT" id="00p-4g-5W3"/>
+                <outlet property="lblTime" destination="Q1y-my-YLW" id="rom-n1-Dnj"/>
+                <outlet property="lblTypeName" destination="iDR-MB-x76" id="tXj-BH-2sK"/>
+            </connections>
+            <point key="canvasLocation" x="92.753623188405811" y="182.47767857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="deafult_user" width="273" height="273"/>
+        <namedColor name="AccentColor">
+            <color red="0.0080000003799796104" green="0.28999999165534973" blue="0.62699997425079346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color Border">
+            <color red="0.0" green="0.0" blue="0.0" alpha="0.25" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Color Dark Text">
+            <color red="0.19200000166893005" green="0.19200000166893005" blue="0.19200000166893005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
